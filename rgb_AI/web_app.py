@@ -23,7 +23,7 @@ if __name__ == "__main__":
     st.sidebar.info(
             "**RGB Color Classifier** can Predict upto 11 Distinct Color Classes.\n\n"
             "The 11 Classes are *Red, Green, Blue, Yellow, Orange, Pink, Purple, Brown, Grey, Black and White*\n\n"
-            "This app is made by [Anuj Panthri](https://github.com/AnujPanthri)"
+            "This app is made by Anuj Panthri"
         )
     
     #st.title("RGB Color Classifier")
