@@ -26,7 +26,7 @@ if __name__ == "__main__":
             "This app is made by [Anuj Panthri](https://github.com/AnujPanthri)"
         )
     
-    st.title("RGB Color Classifier")
+    #st.title("RGB Color Classifier")
     Title_html = """
     <style>
         .title h1{
