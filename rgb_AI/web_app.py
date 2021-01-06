@@ -21,17 +21,12 @@ if __name__ == "__main__":
 
     st.sidebar.title("About")
     st.sidebar.info(
-            "**RGB Color Classifier** can Predict upto 11 Distinct Color Classes based on the RGB input by User from the sliders\n\n"
+            "**RGB Color Classifier** can Predict upto 11 Distinct Color Classes.\n\n"
             "The 11 Classes are *Red, Green, Blue, Yellow, Orange, Pink, Purple, Brown, Grey, Black and White*\n\n"
-            "This app is created and maintained by [Ajinkya Chavan](https://github.com/AjinkyaChavan9)\n\n"
-            "Check the [Source Code] (https://github.com/AjinkyaChavan9/RGB-Color-Classifier-with-Deep-Learning-using-Keras-and-Tensorflow)"
+            "This app is made by [Anuj Panthri](https://github.com/AnujPanthri)
         )
-    st.sidebar.title("Contribute")
-    st.sidebar.info(
-        "You are very **Welcome** to contribute your awesome comments, questions or suggestions as [issues](https://github.com/AjinkyaChavan9/RGB-Color-Classifier-with-Deep-Learning-using-Keras-and-Tensorflow/issues) "
-        "or [pull requests](https://github.com/AjinkyaChavan9/RGB-Color-Classifier-with-Deep-Learning-using-Keras-and-Tensorflow/pulls) to the [source code](https://github.com/AjinkyaChavan9/RGB-Color-Classifier-with-Deep-Learning-using-Keras-and-Tensorflow)"
-    )
-    #st.title("RGB Color Classifier")
+    
+    st.title("RGB Color Classifier")
     Title_html = """
     <style>
         .title h1{
@@ -59,7 +54,7 @@ if __name__ == "__main__":
     </div>
     """
     st.markdown(Title_html, unsafe_allow_html=True) #Title rendering
-    #st.header("Select RGB values")
+    st.header("Select RGB values")
 
     Red = st.slider( label="RED value: ", min_value=0, max_value=255, value=0, key="red")
     Green = st.slider(label="GREEN value: ", min_value=0, max_value=255, value=0, key="green")
